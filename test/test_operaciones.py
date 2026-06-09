@@ -8,7 +8,7 @@ def test_operaciones_positivos():
 def test_operaciones_negativos():
     assert calcular_suma(-1, -1) == -2
 
-def test_operacioones_cero():
+def test_operaciones_cero():
     assert calcular_suma(5, 0) == 5
     
 def test_operaciones_error():
