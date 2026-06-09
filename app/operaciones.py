@@ -14,9 +14,16 @@ def calcular_suma(num1, num2):
 
 if __name__ == "__main__":
     
-    num1 = int(input("Introduce un numero: "))
-    num2 = int(input("Introduce un numero: "))
+    try: 
+        
+        num1 = int(input("Introduce un numero: "))
+        num2 = int(input("Introduce un numero: "))
+        
+        resultado= calcular_suma(num1, num2)
     
-    resultado= calcular_suma(num1, num2)
+        print(f"el resultado de la suma es {resultado}")
+        
+    except:
+        print("El numero introducido no es correcto")
     
-    print(f"el resultado de la suma es {resultado}")
+    
